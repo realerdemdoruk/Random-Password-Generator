@@ -1,4 +1,5 @@
 function getPassword(){
+    
     // We set a random password
     const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@#$%^&*( )_+><:{}[]'";
     let passwordLength = 16;
