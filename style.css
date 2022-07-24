@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color: lightslategrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,14 +16,12 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    
 }
 
 .randomPass {
     width: 300px;
     color: whitesmoke;
 }
-
 
 input{
     margin-top: 5px;
@@ -43,10 +40,8 @@ input{
     color: #83f52c;
     margin-top: 15px;
     margin-left: 100px;
-    /* display: none; */
+    display: none;
 }
-
-
 
 .buttons{
     width: 300px;
@@ -62,4 +57,3 @@ input{
     cursor: pointer;
     margin-top: 10px;
 }
-
