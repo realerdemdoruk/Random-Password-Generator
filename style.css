@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    /* margin: 0; */
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.randomPass {
+    width: 300px;
+    color: whitesmoke;
+}
+
+
+input{
+    margin-top: 5px;
+    width: 300px;
+    height: 3rem;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    /* border: none; */
+
+    border: 2px solid #83f52c;
+}
+
+#copied{ 
+    font-weight: 300;
+    color: #83f52c;
+    margin-top: 15px;
+    margin-left: 100px;
+    /* display: none; */
+}
+
+
+
+.buttons{
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
